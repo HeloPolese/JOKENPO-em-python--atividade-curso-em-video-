@@ -14,7 +14,7 @@ sleep(1) #sleep é tipo uma pausa antes da msg
 print("PO!\n")
 
 if user == 0 and computador == "PEDRA":
-        print("EMPATE")
+    print("EMPATE")
 elif user == 0 and computador == "TESOURA":
     print("PARÁBENS USER! VOCÊ GANHOU!")
 elif user == 0 and computador == "PAPEL":
@@ -35,3 +35,4 @@ elif user == 2 and computador == "PEDRA":
     print("VOCÊ PERDEU!")
 else:
     print("DIGITE UM NÚMERO DE 0 A 2!")
+
